@@ -9,6 +9,7 @@ services:
 
   node-app:
     build: .
+    image: abtorres9/docker-freecodecamp-node-app
     environment:
       - PORT=3000
     depends_on:
